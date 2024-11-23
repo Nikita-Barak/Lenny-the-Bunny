@@ -1,5 +1,4 @@
 using TMPro;
-using Unity.PlasticSCM.Editor.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -36,10 +35,5 @@ public class EatCarrot : MonoBehaviour
     {
         // Reload the current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    public void Reset()
-    {
-        counter = 0;
     }
 }
