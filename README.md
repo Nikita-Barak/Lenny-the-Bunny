@@ -17,10 +17,10 @@ The relevant scripts for getting player input and changing animations accordingl
 ### Player Interactions
 When the player interacts with either an interactable item (a.k.a "Carrot") or an enemy (a.k.a "Fox"), different outcomes are set on occurance.
 
-- **Carrot Interaction** - The carrot item disappears and a carrot counter is incremented.
+- **Carrot Interaction** - The carrot item disappears and a carrot counter is incremented. After all carrots are grabbed, the scene resets ( for now :) )
   Corresponding code - [EatCarrot.cs](https://github.com/Nikita-Barak/Lenny-the-Bunny/blob/main/Assets/Scripts/EatCarrot.cs)
 
-- **Enemy Collision** - The enemy fox will execute the player, making the player's dying component activate it's execution function.
+- **Enemy Collision** - The enemy fox will execute the player, making the player die and reset the scene.
   Corresponding code (from the player's perspective) - [Die.cs](https://github.com/Nikita-Barak/Lenny-the-Bunny/blob/main/Assets/Scripts/Die.cs)
 
 - **Enivronment Collision** - Handled via colliders.
