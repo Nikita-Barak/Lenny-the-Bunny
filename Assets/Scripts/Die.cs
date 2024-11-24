@@ -14,7 +14,7 @@ public class Die : MonoBehaviour
         mover = GetComponent<NewMover>();
         playerCollider = GetComponent<Collider2D>();
         rb = GetComponent<Rigidbody2D>();
-                animator = GetComponent<AnimationController>();
+        animator = GetComponent<AnimationController>();
     }
 
     public void Execute()
@@ -32,7 +32,6 @@ public class Die : MonoBehaviour
 
     private void ResetScene()
     {
-        // Reload the current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

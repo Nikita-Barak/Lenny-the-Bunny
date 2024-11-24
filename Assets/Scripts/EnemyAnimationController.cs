@@ -8,7 +8,7 @@ public class EnemyAnimationController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        SetAnimation("Idle_Left"); // Default animation
+        SetAnimation("Idle_Left"); 
     }
 
     public void UpdateAnimation(float horizontal, bool isRunning)
@@ -24,9 +24,18 @@ public class EnemyAnimationController : MonoBehaviour
         {
             string current = currentAnimation[(currentAnimation.LastIndexOf('_') + 1)..];
             
-            if(current.Equals("Right")) newAnimation = "Idle_Right";
-            else if(current.Equals("Left")) newAnimation = "Idle_Left";
-            else newAnimation = "Idle_Right";
+            if(current.Equals("Right")) 
+            {
+                newAnimation = "Idle_Right";
+            }
+            else if(current.Equals("Left")) 
+            {
+                newAnimation = "Idle_Left";
+            }
+            else
+            {
+            newAnimation = "Idle_Right";
+            } 
         }
 
         SetAnimation(newAnimation);

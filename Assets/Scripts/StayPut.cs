@@ -9,7 +9,6 @@ public class StayPut : MonoBehaviour
         initPosition = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position = initPosition;

@@ -33,7 +33,6 @@ public class EatCarrot : MonoBehaviour
 
     private void ResetScene()
     {
-        // Reload the current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

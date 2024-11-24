@@ -693,6 +693,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot (4)
@@ -750,6 +754,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot (9)
@@ -1495,6 +1503,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot (8)
@@ -1990,6 +2002,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot (2)
@@ -3213,6 +3229,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot (5)
@@ -3410,6 +3430,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot (1)
@@ -4983,6 +5007,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot (6)
@@ -6755,6 +6783,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot (3)
@@ -6911,6 +6943,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot (7)
@@ -7289,7 +7325,7 @@ GameObject:
   - component: {fileID: 1712824625}
   - component: {fileID: 1712824626}
   m_Layer: 0
-  m_Name: Sunny
+  m_Name: Lenny
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7558,7 +7594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d426d0cb6e7e14f9962cb16d1b0cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counterText: {fileID: 0}
+  counterText: {fileID: 1922415106}
   winDelay: 1
   winCount: 10
 --- !u!114 &1712824628
@@ -9169,6 +9205,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1730363356}
     m_Modifications:
+    - target: {fileID: 2965177192694603380, guid: 236feca3229fb7343880272d6978c453, type: 3}
+      propertyPath: counterText
+      value: 
+      objectReference: {fileID: 1922415106}
     - target: {fileID: 7285281087789138032, guid: 236feca3229fb7343880272d6978c453, type: 3}
       propertyPath: m_Name
       value: Carrot
