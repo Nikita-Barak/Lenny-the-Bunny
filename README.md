@@ -10,8 +10,8 @@ The project features an outer space landscape with moving objects.
 The player controls the movement of the playable character via the WASD keys for basic movement and the Shift key for running.
 The relevant scripts for getting player input and changing animations accordingly are:
 
-- Player input to position tranformation - [NewMover.cs](https://github.com/Nikita-Barak/Lenny-the-Bunny/blob/main/Assets/Scripts/AnimationController.cs)
-- Position transformation to animation changing - [AnimationController.cs](https://github.com/Nikita-Barak/Lenny-the-Bunny/blob/main/Assets/Scripts/AnimationController.cs)
+- Player Input to Movement - [NewMover.cs](https://github.com/Nikita-Barak/Lenny-the-Bunny/blob/main/Assets/Scripts/AnimationController.cs)
+- Movement to Animation Change - [AnimationController.cs](https://github.com/Nikita-Barak/Lenny-the-Bunny/blob/main/Assets/Scripts/AnimationController.cs)
 
 ---
 
