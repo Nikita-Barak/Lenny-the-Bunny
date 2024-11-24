@@ -7,10 +7,11 @@ public class KillPlayer : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Die dieComponent = other.gameObject.GetComponent<Die>();
-            if(dieComponent != null) 
+
+            if (dieComponent != null)
             {
                 dieComponent.Execute();
             }
         }
-    }    
+    }
 }

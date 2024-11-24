@@ -2,23 +2,23 @@ using UnityEngine;
 
 public class Oscillator : MonoBehaviour
 {
-    Vector3 start_pos;
-    
+    private Vector3 start_pos;
+
     [Tooltip("Distance of movement from starting point in each direction.")]
-    [SerializeField] float radius = 0.2f;
-    
+    [SerializeField] private float radius = 0.2f;
+
     [Tooltip("Speed of the object in either direction")]
-    [SerializeField] float speed = 2.5f;
+    [SerializeField] private float speed = 2.5f;
 
     [Tooltip("Step size for the y-axis movement (for pixel-art effect).")]
-    private float stepSize = 0.03f;
-    
-    void Start()
+    [SerializeField] private float stepSize = 0.03f;
+
+    private void Start()
     {
         start_pos = transform.position;
     }
 
-    void Update()
+    private void Update()
     {
         // Since we need to move between 2 points, we need a function that's changing between -1 and 1 constantly and in different slopes.
         // Also, because we want the object to start at 0 when initializing the game, Sin() is the best option to do so.

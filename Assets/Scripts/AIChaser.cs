@@ -3,17 +3,25 @@ using UnityEngine;
 public class AIChaser : MonoBehaviour
 {
     private EnemyAnimationController animator;
-    [SerializeField] GameObject player;
-    [SerializeField] float speed = 2.0f; 
-    [SerializeField] float aggroWidth = 7.0f;
-    [SerializeField] float aggroHeight = 4.0f;
 
-    void Start()
+    [SerializeField]
+    private GameObject player;
+
+    [SerializeField]
+    private float speed = 2.0f;
+
+    [SerializeField]
+    private float aggroWidth = 7.0f;
+
+    [SerializeField]
+    private float aggroHeight = 4.0f;
+
+    private void Start()
     {
-        animator = GetComponent<EnemyAnimationController>();        
+        animator = GetComponent<EnemyAnimationController>();
     }
 
-    void Update()
+    private void Update()
     {
         Vector2 direction = player.transform.position - transform.position;
 

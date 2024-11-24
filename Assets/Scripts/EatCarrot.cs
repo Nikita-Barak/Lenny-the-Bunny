@@ -25,7 +25,7 @@ public class EatCarrot : MonoBehaviour
             counterText.text = "" + counter;
         }
 
-        if(counter == winCount)
+        if (counter == winCount)
         {
             Invoke(nameof(ResetScene), winDelay);
         }

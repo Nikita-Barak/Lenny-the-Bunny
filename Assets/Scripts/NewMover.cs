@@ -6,7 +6,7 @@ public class NewMover : MonoBehaviour
     public Rigidbody2D rb;
     AnimationController animator;
     [SerializeField] float moveSpeed = 3.0f;
-    [SerializeField] float runMultiplier = 2.0f;
+    [SerializeField] float runMultiplier = 1.5f;
     [SerializeField] float diagonalFactor = 0.7f;
     [SerializeField] InputAction playerMovement;
     [SerializeField] InputAction Run;
@@ -30,22 +30,30 @@ public class NewMover : MonoBehaviour
         Run.Disable();
     }
 
-    void Update() 
+    void Update()
     {
         moveDirection = playerMovement.ReadValue<Vector2>();
         float currentSpeed = moveSpeed;
         bool isRunning = Run.IsPressed();
-        
-        if(isRunning) currentSpeed *= runMultiplier;
 
-
-        if(moveDirection.x != 0 && moveDirection.y != 0) 
+        if (isRunning) 
         {
-            rb.linearVelocity = new Vector2(moveDirection.x * currentSpeed * diagonalFactor, moveDirection.y * currentSpeed);
+            currentSpeed *= runMultiplier;
+        }
+
+        if (moveDirection.x != 0 && moveDirection.y != 0)
+        {
+            rb.linearVelocity = new Vector2(
+                moveDirection.x * currentSpeed * diagonalFactor,
+                moveDirection.y * currentSpeed * diagonalFactor
+            );
         }
         else
         {
-            rb.linearVelocity = new Vector2(moveDirection.x * currentSpeed, moveDirection.y * currentSpeed);
+            rb.linearVelocity = new Vector2(
+                moveDirection.x * currentSpeed,
+                moveDirection.y * currentSpeed
+            );
         }
 
         animator.UpdateAnimation(moveDirection.x, moveDirection.y, isRunning);
