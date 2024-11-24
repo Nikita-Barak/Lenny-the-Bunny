@@ -45,7 +45,7 @@ public class NewMover : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(
                 moveDirection.x * currentSpeed * diagonalFactor,
-                moveDirection.y * currentSpeed * diagonalFactor
+                moveDirection.y * currentSpeed
             );
         }
         else
