@@ -36,7 +36,7 @@ public class NewMover : MonoBehaviour
         float currentSpeed = moveSpeed;
         bool isRunning = Run.IsPressed();
 
-        if (isRunning) 
+        if (isRunning)
         {
             currentSpeed *= runMultiplier;
         }
