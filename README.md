@@ -1,6 +1,5 @@
 # Lenny the Bunny
-This is a simple 2D Unity project demonstrating basic movement of objects and button-clicking. 
-The project features an outer space landscape with moving objects.
+This is a simple 2D Unity project demonstrating basic gameloop mechanics.
 
 [Itch.io link](https://shutafimpro.itch.io/lenny-the-bunny)
 
