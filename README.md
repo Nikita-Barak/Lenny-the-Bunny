@@ -24,6 +24,8 @@ When the player interacts with either an interactable item (a.k.a "Carrot") or a
 - **When touched by a Fox** - The fox will execute the player, making the player's dying component activate it's execution function.
   Corresponding code (from the player's perspective) - [Die.cs](https://github.com/Nikita-Barak/Lenny-the-Bunny/blob/main/Assets/Scripts/Die.cs)
 
+- **Enivronment Collision** - Handled via colliders.
+
 ---
 
 ### Interactable Item Design
